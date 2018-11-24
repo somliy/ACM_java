@@ -1,0 +1,23 @@
+Queue<Arrow> q = new PriorityQueue<Arrow>(m, new Comparator<Arrow>() {
+    @Override
+    public int compare(Arrow o1, Arrow o2) {
+        return o1.cost - o2.cost;//从小到大
+    }
+});
+
+static class Point implements Comparable<Point> {
+    int site;
+    long value;
+
+    public Point(int site, long value) {
+        this.site = site;
+        this.value = value;
+    }
+
+    @Override
+    public int compareTo(Point o) {
+        if (value > o.value)//从小到大
+            return 1;
+        else return -1;
+    }
+}
