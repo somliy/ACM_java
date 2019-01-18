@@ -16,8 +16,12 @@ static class Point implements Comparable<Point> {
 
     @Override
     public int compareTo(Point o) {
-        if (value > o.value)//从小到大
-            return 1;
-        else return -1;
+        //if (value > o.value)//从小到大
+        //    return 1;
+        //else return -1;
+        this.value>o.value?1:-1;
     }
 }
+
+memset(a, -1, sizeof(a));
+Arrays.fill(visit, -1);

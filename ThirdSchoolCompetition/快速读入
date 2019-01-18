@@ -1,0 +1,30 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.StreamTokenizer;
+
+public class P1029 {
+	public static void main(String[] args) throws IOException {
+		// 这句是io流包装，记住就好
+		StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+		PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+		//StreamTokenizer.TT_EOF这个是个参数，就是EOF
+		while (in.nextToken() != StreamTokenizer.TT_EOF) {
+			int n = (int) in.nval;
+			int appears[] = new int[32768];// 记录出现次数
+			int max = 0;
+			for (int i = 0; i < n; i++) {
+				in.nextToken();//指向下一个
+				int num = (int) in.nval;//scanner.nextInt();
+				appears[num]++;
+				if (appears[num] >= (n + 1) / 2) {
+					max = num;
+				}
+			}
+			out.println(max);
+			out.flush();//刷新，不然max会留在缓冲区
+		}
+	}
+}

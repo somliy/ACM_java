@@ -1,0 +1,6 @@
+
+
+/** 复制函数*/
+byte[] src = {1, 2, 3, 4};
+byte[] dst = Arrays.copyOf(src, src.length);
+System.out.println(Arrays.toString(dst));
