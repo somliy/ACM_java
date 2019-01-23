@@ -4,7 +4,7 @@ Queue<Arrow> q = new PriorityQueue<Arrow>(m, new Comparator<Arrow>() {
         return o1.cost - o2.cost;//从小到大
     }
 });
-
+------------------------------------------------------------------------
 static class Point implements Comparable<Point> {
     int site;
     long value;
@@ -22,6 +22,15 @@ static class Point implements Comparable<Point> {
         this.value>o.value?1:-1;
     }
 }
-
+-------------------------------------------------------------------------
 memset(a, -1, sizeof(a));
 Arrays.fill(visit, -1);
+-------------------------------------------------------------------------
+
+PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+
+poll()是取得头节点，然后从队列中删除。
+peek()是取得头节点。
+clear()是删除所有节点。
+iterator()是返回一个循环iterator
+remove（Object o）是从队列中删除对象o
