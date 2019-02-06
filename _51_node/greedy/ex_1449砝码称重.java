@@ -2,8 +2,7 @@ package _51_node.greedy;
 
 import java.util.Scanner;
 
-public class ex_1449 {
-
+public class ex_1449砝码称重 {
     /**
      * 1449 砝码称重
      * 1 秒  131,072 KB 40 分 4 级题

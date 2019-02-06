@@ -7,9 +7,54 @@ s[(int) str.charAt(i) - (int) 'a']++;
 
 ---
 
+cmp的写法有两种 推荐第一种
+
+```
+static class Point implements Comparable<Point> {
+    int site;
+    long value;
+
+    public Point(int site, long value) {
+        this.site = site;
+        this.value = value;
+    }
+
+    @Override
+    public int compareTo(Point o) {
+        //if (value > o.value)//从小到大
+        //    return 1;
+        //else return -1;
+        return this.value>o.value?1:-1;
+    }
+}
 
 
+public static class Edge implements Comparable {
+    int start;
+    int end;
+    int weight;
 
+    public Edge(int start, int end, int weight) {
+        this.start = start;
+        this.end = end;
+        this.weight = weight;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (o instanceof Edge) {
+            Edge b = (Edge) o;
+            if (this.weight < b.weight) {
+                return -1;
+            } else if (this.weight > b.weight) {
+                return 1;
+            }
+        }
+        return 0;
+    }
+}
+```
+arraylist获取某个下标数值 arraylist.get(i).a;
 
 
 
