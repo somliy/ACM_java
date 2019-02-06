@@ -1,0 +1,5 @@
+1. Integer方法
+public static String toString(int i, int radix)
+将目标数据i 转换成radix进制的字符
+2. Integer.parseInt(String str,int radix)
+将目标字符串转换成radix进制的整型数据

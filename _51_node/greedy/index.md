@@ -1,3 +1,61 @@
+在C语言中，通常字符串用char数组记录，便于单个字符的操作，
+例如统计字母个数，
+java中一般用String记录，取出单个字符用
+string.charAt(i) i为下标
+
+s[(int) str.charAt(i) - (int) 'a']++;
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------
+
+
+
+
 Queue<Arrow> q = new PriorityQueue<Arrow>(m, new Comparator<Arrow>() {
     @Override
     public int compare(Arrow o1, Arrow o2) {
@@ -34,3 +92,5 @@ peek()是取得头节点。
 clear()是删除所有节点。
 iterator()是返回一个循环iterator
 remove（Object o）是从队列中删除对象o
+-------------------------------------------------------------------------
+

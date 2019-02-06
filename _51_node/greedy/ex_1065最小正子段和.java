@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class ex_1065 {
+public class ex_1065最小正子段和 {
     /**
      * 1065 最小正子段和
      * 1 秒  131,072 KB 20 分 3 级题
      * N个整数组成的序列a[1],a[2],a[3],…,a[n]，从中选出一个子序列（a[i],a[i+1],…a[j]），
      * 使这个子序列的和>0，并且这个和是所有和>0的子序列中最小的。例如：4，-1，5，-2，-1，2，6，-2。-1，5，-2，-1，序列和为1，是最小的。
-     *
+     * <p>
      * 计算前缀和，标记加的位置，根据前缀和排序，
      * 根据排序后的顺序后-前，并判断原来位置 后 在 前 的前面
      * nlog(n)
