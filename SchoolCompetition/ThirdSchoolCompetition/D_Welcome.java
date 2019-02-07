@@ -1,4 +1,4 @@
-package ThirdSchoolCompetition;
+package SchoolCompetition.ThirdSchoolCompetition;
 
 import java.util.Scanner;
 

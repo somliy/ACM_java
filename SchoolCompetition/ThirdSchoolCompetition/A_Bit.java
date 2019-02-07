@@ -1,4 +1,4 @@
-package ThirdSchoolCompetition;
+package SchoolCompetition.ThirdSchoolCompetition;
 
 import java.util.Scanner;
 
@@ -16,7 +16,8 @@ public class A_Bit {
      *
      * Input
      *
-     * 第一行包含一个整数n(1≤n≤150)。接下来的n行每一行都包含一条语句。每个语句恰好包含一个操作(++或--)和一个变量x(表示为字母«x»)。因此，不存在空语句。操作和变量可以按任何顺序写入。
+     * 第一行包含一个整数n(1≤n≤150)。接下来的n行每一行都包含一条语句。每个语句恰好包含一个操作(++或--)和一个变量x(表示为字母«x»)。
+     * 因此，不存在空语句。操作和变量可以按任何顺序写入。
      *
      *
      * Output

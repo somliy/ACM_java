@@ -160,4 +160,14 @@
 ### 第三次校赛补题
 | 题号 | 题目 | 类型 | 一句话题解 |难度|
 | :---: | :---:  | :---: |:---: |:---: |
-| 1065    | 最小正字段和     | 类型  | 前缀和|
+| A | [A_Bit](/SchoolCompetition/ThirdSchoolCompetition/A_Bit.java) |水题 | 前缀和 | 0 |
+| B | [B_排名规则](/SchoolCompetition/ThirdSchoolCompetition/B_排名规则.java) | 水题 | 结构体排序 | 0 |
+| C | [C_四个数的和为0](/SchoolCompetition/ThirdSchoolCompetition/C_四个数的和为0.java) | 水题 | 暴力找 | 1 |
+| D | [D_Welcome](/SchoolCompetition/ThirdSchoolCompetition/D_Welcome.java) | 水题 | a*b-1 | 0 |
+| E | [E_完美字符串](/SchoolCompetition/ThirdSchoolCompetition/E_完美字符串.java) | 水题 | 暴力+排序 | 0 |
+| F | [F_字符串长度](/SchoolCompetition/ThirdSchoolCompetition/F_字符串长度.java) | 水题 | 无 | 0 |
+| G | [G_最高的奖励](/SchoolCompetition/ThirdSchoolCompetition/G_最高的奖励.java) | 优先队列 | 优先队列维护最终工作奖励|1|
+| H | [H_小可爱分块](/SchoolCompetition/ThirdSchoolCompetition/H_小可爱分块.java) | 思维 | n/k | 2 |
+| I | [I_转圈游戏](/SchoolCompetition/ThirdSchoolCompetition/I_转圈游戏.java) | 水题 | 快速幂 | 1 |
+| J | [J_寻找道路](/SchoolCompetition/ThirdSchoolCompetition/J_寻找道路.java) | 搜索 | 两次搜索 | 2 |
+| K | [D_WFU](/SchoolCompetition/ThirdSchoolCompetition/D_WFU.java) | 水题 | 输出 | 0 |

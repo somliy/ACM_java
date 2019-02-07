@@ -1,4 +1,4 @@
-package ThirdSchoolCompetition;
+package SchoolCompetition.ThirdSchoolCompetition;
 
 /**
  * @Auther: zhaodong
